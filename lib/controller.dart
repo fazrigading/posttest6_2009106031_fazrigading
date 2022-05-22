@@ -7,9 +7,7 @@ class UserController extends GetxController {
   var emailaddress = "".obs;
   var username = "".obs;
   var password = "".obs;
-  // List gender = ["Male", "Female"].obs;
   var chosenGender = "".obs;
-  var idRadio = 0.obs;
   void updateGender(var gender) {
     chosenGender.value = gender;
   }

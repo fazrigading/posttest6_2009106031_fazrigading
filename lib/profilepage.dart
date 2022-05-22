@@ -7,7 +7,6 @@ class ViewProfile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // UserController c = Get.put(UserController());
     UserController d = Get.find();
     return Center(
       child: ListView(
